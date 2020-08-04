@@ -9,7 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!").padding()
+        TabView {
+                PathView()
+                    .tabItem {
+                        Image(systemName: "arrow.swap")
+                        Text("Full Path")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            
+                }
+                ChallengesView()
+                    .tabItem {
+                        Image(systemName: "gear")
+                        Text("Challenges")
+                }
+                leaderboardView()
+                    .tabItem {
+                        Image(systemName: "chart.bar.fill")
+                        Text("Leaderboard")
+                }
+            }
     }
 }
 

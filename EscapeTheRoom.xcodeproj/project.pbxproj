@@ -15,6 +15,12 @@
 		FF36AD8024D995DE0006EE85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF36AD7E24D995DE0006EE85 /* LaunchScreen.storyboard */; };
 		FF36AD8B24D995DE0006EE85 /* EscapeTheRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36AD8A24D995DE0006EE85 /* EscapeTheRoomTests.swift */; };
 		FF36AD9624D995DE0006EE85 /* EscapeTheRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36AD9524D995DE0006EE85 /* EscapeTheRoomUITests.swift */; };
+		FF36ADA424D998880006EE85 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36ADA324D998880006EE85 /* ChallengeView.swift */; };
+		FF36ADA624D998940006EE85 /* ChallengeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF36ADA524D998940006EE85 /* ChallengeBox.swift */; };
+		FFA29A7024D9E78A002F829A /* ChallengePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA29A6F24D9E78A002F829A /* ChallengePage.swift */; };
+		FFA29A7224D9F10C002F829A /* leaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA29A7124D9F10C002F829A /* leaderboardView.swift */; };
+		FFBE7EB024D9B1A10028BEE6 /* PathBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE7EAF24D9B1A10028BEE6 /* PathBox.swift */; };
+		FFBE7EB224D9B2990028BEE6 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBE7EB124D9B2990028BEE6 /* PathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		FF36AD9124D995DE0006EE85 /* EscapeTheRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EscapeTheRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF36AD9524D995DE0006EE85 /* EscapeTheRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapeTheRoomUITests.swift; sourceTree = "<group>"; };
 		FF36AD9724D995DE0006EE85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF36ADA324D998880006EE85 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		FF36ADA524D998940006EE85 /* ChallengeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeBox.swift; sourceTree = "<group>"; };
+		FFA29A6F24D9E78A002F829A /* ChallengePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengePage.swift; sourceTree = "<group>"; };
+		FFA29A7124D9F10C002F829A /* leaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaderboardView.swift; sourceTree = "<group>"; };
+		FFBE7EAF24D9B1A10028BEE6 /* PathBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathBox.swift; sourceTree = "<group>"; };
+		FFBE7EB124D9B2990028BEE6 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +114,12 @@
 				FF36AD7324D995DB0006EE85 /* AppDelegate.swift */,
 				FF36AD7524D995DB0006EE85 /* SceneDelegate.swift */,
 				FF36AD7724D995DB0006EE85 /* ContentView.swift */,
+				FF36ADA324D998880006EE85 /* ChallengeView.swift */,
+				FFBE7EAF24D9B1A10028BEE6 /* PathBox.swift */,
+				FFBE7EB124D9B2990028BEE6 /* PathView.swift */,
+				FF36ADA524D998940006EE85 /* ChallengeBox.swift */,
+				FFA29A6F24D9E78A002F829A /* ChallengePage.swift */,
+				FFA29A7124D9F10C002F829A /* leaderboardView.swift */,
 				FF36AD7924D995DE0006EE85 /* Assets.xcassets */,
 				FF36AD7E24D995DE0006EE85 /* LaunchScreen.storyboard */,
 				FF36AD8124D995DE0006EE85 /* Info.plist */,
@@ -266,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF36ADA424D998880006EE85 /* ChallengeView.swift in Sources */,
 				FF36AD7424D995DB0006EE85 /* AppDelegate.swift in Sources */,
+				FFBE7EB024D9B1A10028BEE6 /* PathBox.swift in Sources */,
+				FFBE7EB224D9B2990028BEE6 /* PathView.swift in Sources */,
+				FFA29A7224D9F10C002F829A /* leaderboardView.swift in Sources */,
 				FF36AD7624D995DB0006EE85 /* SceneDelegate.swift in Sources */,
 				FF36AD7824D995DB0006EE85 /* ContentView.swift in Sources */,
+				FFA29A7024D9E78A002F829A /* ChallengePage.swift in Sources */,
+				FF36ADA624D998940006EE85 /* ChallengeBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
